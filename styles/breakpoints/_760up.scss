@@ -1,0 +1,85 @@
+.own-title {
+  .two-pe {
+    & h1 {
+      font-size: 25px;
+      width: 400px;
+    }
+  }
+  .three-pe {
+    position: relative;
+    height: 2270px;
+
+    & h1 {
+      font-size: 20px;
+      width: 360px;
+    }
+    .text {
+      font-size: 15px;
+      width: 430px;
+    }
+
+    .main-flex {
+      position: absolute;
+      top:1200px;
+      height: 2150px;
+      width: 65%;
+
+      .sub-flex {
+        margin-top: 30px;
+        .box1 {
+          .list {
+            .btn-flat-border {
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .four-pe {
+    & h1 {
+      font-size: 25px;
+      width: 240px;
+    }
+  }
+  .six-pe {
+    & h1 {
+      font-size: 30px;
+    }
+  }
+
+  .own-pc {
+    display: none;
+  }
+  .two-pc {
+    display: none;
+  }
+  .three-pc {
+    display: none;
+  }
+  .four-pc {
+    display: none;
+  }
+  .five-pc {
+    display: none;
+  }
+  .six-pc {
+    display: none;
+  }
+  .seven-pc {
+    display: none;
+  }
+  .eight-pc {
+    display: none;
+  }
+  .eight-pe {
+    display: none;
+  }
+}
+
+// position: absolute;
+// top:50%;
+// left:50%;
+// transform: translate(-50%,-50%);
+
+// font-family: 'Noto Serif JP', serif;
